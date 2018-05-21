@@ -3,16 +3,16 @@
 _Setup Instructions_
 
 * _NPM must be installed._
-
- _git clone_
-_cd to Journal_
-_npm install webpack@4.01 --save-dev_
-_npm run start_
+  * _Node commands:_
+    * _git clone [project repository name]_
+    * _move to [project directory]_
+    * _npm init -y_
+    * _npm install_
+    * _npm run start_
 
 _Project should work at this point._
 
 * _Other npm commands from the lesson:_
-  * npm init -y
   * npm install webpack@4.01 --save-dev
   * npm install webpack-cli@2.0.9 --save-dev
   * npm install style-loader@0.20.2 css-loader@0.28.10 --save-dev

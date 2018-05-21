@@ -6,20 +6,40 @@
     <title>Journal</title>
   </head>
   <body>
-    <div class="container">
-      <h1 class="display-1">Journal</h1>
-      <form id="journal-form" class="form-group w-50">
-        <label for="input">Enter a journal post here:</label>
-        <input id="input" class="form-control" type="text" name="journal">
-        <button type="submit" name="button">Post</button>
-      </form>
-      <br>
-      <div class="jumbotron w-50">
-        <h3 class="display-3">Entries</h3>
-        <ul class="list-group">
-          <div class="list-group-item" id="output"></div>
-        </ul>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1 class="display-1">Journal</h1>
+        <p>Practice setting up a fully-configured JS project, using Node.js</p>
       </div>
+      <hr style="padding-bottom: 10px;">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="journal-form" class="jumbotron w-100 form-group">
+            <label class="display-4 text-center" for="input">Post</label>
+            <br>
+            <p>Post your journal entries here:</p>
+            <input id="input" class="form-control" type="text" name="journal">
+            <hr class="w-50">
+            <button class="btn btn-secondary"type="submit" name="button">Post</button>
+          </form>
+        </div>
+        <!-- end of post column -->
+        <div class="col-md-6">
+          <div class="jumbotron w-100">
+            <h4 class="display-4">View</h4>
+            <p>See your entries here:</p>
+            <ul class="list-group">
+              <div class="card">
+                <p id="output"></p>
+                <small id="datetime"></small>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <!-- end of view column -->
+      </div>
+      <!-- end of row-->
     </div>
+    <!-- end of container -->
   </body>
 </html>

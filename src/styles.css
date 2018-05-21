@@ -1,4 +1,10 @@
 body {
-  background-color: lightblue;
+  background-color: #eeeeee;
   padding: 20px;
+}
+h1 {
+  font-style: italic;
+}
+.jumbotron {
+  background-color: #f5f5f5;
 }

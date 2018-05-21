@@ -1,3 +1,4 @@
+import './bootstrap.css';
 import './styles.css';
 import { Journal } from './journal.js';
 
@@ -7,6 +8,7 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $('#input').val();
     var output = Journal(input);
+    console.log(input);
     output.forEach(function(element) {
       $('#output').append("<li>" + element + "</li>");
     });
