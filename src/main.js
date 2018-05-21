@@ -1,5 +1,6 @@
 import './bootstrap.css';
 import './styles.css';
+import $ from 'jquery';
 import { Journal } from './journal.js';
 
 
